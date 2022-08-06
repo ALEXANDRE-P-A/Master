@@ -1,3 +1,4 @@
+/* 横幅設定 */
 /* ＰＣ、スマホ共通スタイル */
 body {
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
@@ -9,7 +10,6 @@ p {
 　ＰＣ用のスタイル
 ================*/
 @media screen and (min-width: 768px) {
-/* 横幅設定 */
   body {
     max-width: 1080px;
     min-width: 960px;
@@ -30,6 +30,7 @@ p {
   #nav-pc > a {
     text-decoration: none;
     margin-left: 20px;
+    font-weight: bold;
   }
   #nav-pc > a:link {
     color: #0d0d0d;
